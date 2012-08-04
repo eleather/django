@@ -12,8 +12,14 @@ It'll consist of two parts:
 * A public site that lets people view polls and vote in them.
 * An admin site that lets you add, change and delete polls.
 
-We'll assume you have :doc:`Django installed </intro/install>` already. You can
-tell Django is installed and which version by running the following command:
+We'll assume you have :doc:`Django installed </intro/install>` already. We'll
+also assume that you have some experience using the command line and editing
+code in a text editor - if you don't, we recommend completing the first few
+chapters of `Learn Python the Hard Way <http://learnpythonthehardway.org/>`_
+and then returning to this tutorial.
+
+You can tell Django is installed and which version by running the following
+command:
 
 .. code-block:: bash
 
