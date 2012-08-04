@@ -2,33 +2,32 @@
 Writing your first Django app, part 1
 =====================================
 
-Let's learn by example.
+This tutorial will walk you through your first project in Django.
 
-Throughout this tutorial, we'll walk you through the creation of a basic
-poll application.
-
-It'll consist of two parts:
+Our example application will be a multiple-choice poll. It will consist of two
+parts:
 
 * A public site that lets people view polls and vote in them.
 * An admin site that lets you add, change and delete polls.
 
 We'll assume you have :doc:`Django installed </intro/install>` already. We'll
 also assume that you have some experience using the command line and editing
-code in a text editor - if you don't, we recommend completing the first few
-chapters of `Learn Python the Hard Way <http://learnpythonthehardway.org/>`_
+Python code in a text editor - if you don't, we recommend completing the first
+few chapters of `Learn Python the Hard Way <http://learnpythonthehardway.org/>`_
 and then returning to this tutorial.
 
-You can tell Django is installed and which version by running the following
-command:
+You can tell whether Django is installed and which version you have by running
+the following command:
 
 .. code-block:: bash
 
     python -c "import django; print(django.get_version())"
 
-You should see either the version of your Django installation or an error
-telling "No module named django". Check also that the version number matches
-the version of this tutorial. If they don't match, you can refer to the
-tutorial for your version of Django or update Django to the newest version.
+You should see either the version of your Django installation ('1.5') or an
+error saying "No module named django". You can find the Django version this
+tutorial corresponds to in the bottom right corner of the page. If the version
+numbers don't match, use that selector to switch to the tutorial for your
+version of Django or upgrade Django to the newest version.
 
 See :doc:`How to install Django </topics/install>` for advice on how to remove
 older versions of Django and install a newer one.
