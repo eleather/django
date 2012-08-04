@@ -202,7 +202,10 @@ It worked!
 Database setup
 --------------
 
-Now, edit :file:`mysite/settings.py`. It's a normal Python module with
+The site is working, but it's not very interesting yet. Let's start adding some
+content to it. First, we'll need to configure a database to store our data in.
+
+Start by opening :file:`mysite/settings.py`. It's a normal Python module with
 module-level variables representing Django settings. Change the
 following keys in the :setting:`DATABASES` ``'default'`` item to match
 your database connection settings.
