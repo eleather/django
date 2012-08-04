@@ -151,9 +151,10 @@ These files are:
 The development server
 ----------------------
 
-Let's verify this worked. Change into the outer :file:`mysite` directory, if
-you haven't already, and run the command ``python manage.py runserver``. You'll
-see the following output on the command line::
+That's all you needed to do to have a working Django project. Now let's look at
+the site we created. ``cd`` into the outer :file:`mysite` directory, if you
+haven't already, and run the command ``python manage.py runserver``. You'll see
+the following output on the command line::
 
     Validating models...
     0 errors found.
@@ -180,9 +181,8 @@ It worked!
     By default, the :djadmin:`runserver` command starts the development server
     on the internal IP at port 8000.
 
-    If you want to change the server's port, pass
-    it as a command-line argument. For instance, this command starts the server
-    on port 8080:
+    If you want to change the server's port, pass it as a command-line argument.
+    For instance, this command starts the server on port 8080:
 
     .. code-block:: bash
 
