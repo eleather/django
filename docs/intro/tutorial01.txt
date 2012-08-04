@@ -44,11 +44,8 @@ __ irc://irc.freenode.net/django
 Creating a project
 ==================
 
-If this is your first time using Django, you'll have to take care of some
-initial setup. Namely, you'll need to auto-generate some code that establishes a
-Django :term:`project` -- a collection of settings for an instance of Django,
-including database configuration, Django-specific options and
-application-specific settings.
+First, you'll need to create a Django :term:`project`. This is where the code
+and settings for your site will live.
 
 From the command line, ``cd`` into a directory where you'd like to store your
 code, then run the following command:
@@ -102,7 +99,8 @@ within your Python installation. Consider symlinking to :doc:`django-admin.py
     Put your code in some directory **outside** of the document root, such as
     :file:`/home/mycode`.
 
-Let's look at what :djadmin:`startproject` created::
+The ``mysite`` directory is your project, and it has some generated files in it
+to get you started. Let's look at what :djadmin:`startproject` created::
 
     mysite/
         manage.py
